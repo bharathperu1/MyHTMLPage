@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<form action="mailto:your@email.com" method="post">
+Username <input type="text" name="Username"><br/>
+
+	Password
+	<input type="Password" name="Password" minlength="8"><br/>
+
+	<p>What is your favourite city</p>
+	<input type="radio" name="city" value="Chicago">Chicago
+	<input type="radio" name="city" value="Toronto">Toronto
+	<input type="radio" name="city" value="Vancouver">Vancouver
+
+	<p>What is your favourite Genre:</p>
+	<input type="checkbox" name="Genre" value="rock">Rock
+	<input type="checkbox" name="Genre" value="pop">Pop
+	<input type="checkbox" name="Genre" value="jazz">Jazz
+
+    <p>What is your favourite County:</p>
+    <select name="County">
+    <option value="india">India</option>	
+    <option value="usa">USA</option>	
+    <option value="canada">Canada</option>	
+    </select>
+
+    <p>Do you play any of the following</p>
+    <select name="instruments" multiple="multiple">
+    <option value="guitar">Guitar</option>
+    <option value="keyboard">Keyboard</option>
+    <option value="drums">Drums</option>
+    <option value="bass">Bass</option>
+    </select>
+
+    <input type="submit" name="subscribe" value="subscribe">
+
+    <p>Uploud your file</p>
+    <input type="file" name="resume">
+
+    <fieldset>
+    <legend>Contact Details</legend>
+    <label for="email">Email:
+    <input type="text" name="email" required="required">
+        </label><br>
+        <label>
+        	Password:
+	<input type="Password" name="Password" minlength="8" required="required"><br/>
+        </label>
+        <label for="Phone">Phone:
+    <input type="text" name="Phone">
+        </label><br>
+        <label for="Mobile">Mobile:
+    <input type="text" name="Mobile">
+        </label><br>
+        <input type="image" src="C:\Users\Bharath Peruvala\Desktop\images (1).jpg" width="100" height="100">
+        </fieldset>
+<label for="email">Email:</label>
+<input type="email" name="email"><br>
+<label for="Website">Website:</label>
+<input type="url" name="Website"><br>
+<label for="search">Search:</label>
+<input type="search" name="search" placeholder="enter keyword">
+<label for="departure">Departure</label>
+<input type="date" name="departure">
+<input type="submit" value="submit">
+
+
+
+</form>
+</body>
+</html>
